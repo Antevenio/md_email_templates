@@ -1,0 +1,155 @@
+<style>
+    @media only screen and (max-device-width:600px) {
+        table[data-place="general"] {
+            width: 100% !important;
+        }
+        table#layout {
+            width: 100% !important;
+        }
+    }
+</style>
+<center>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" data-place="general" class="general-background-color general-font-family" style="font-family: HelveticaNeue, Arial, sans-serif;background-color: #eeeeee;">
+        <tbody>
+            <tr>
+                <td valign="top" align="center">
+                    <table width="600" cellpadding="0" cellspacing="0" border="0" id="layout" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #eeeeee; border-style: solid;">
+                        <tbody>
+                            <tr>
+                                <td width="100%">
+
+                                    <!-- #########  Cabecera ########### -->
+                                    <div class="removeFromHere">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" data-place="header" class="table header-font-family header-font-size header-font-weight header-text-align header-text-color header-background-color" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 24px; color: #393939; background-color: #ffffff; width: 100%; height: 200px; text-align: center;">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="middle" style="text-align: inherit; vertical-align: middle; line-height: 1em;" class="font-size-cabecera font-weight-cabecera font-family-general font-family-cabecera dashed" data-button="borrar">
+                                                        <div contenteditable="true" class="contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_HEAD_TITLE">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- #########  FIN Cabecera ########### -->
+
+                                    <!-- #########  Contenido ########### -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table content-background-color general-font-family content-font-family" data-place="content" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #393939; background-color: #ffffff; text-align: left; width: 100%;">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" style="padding: 20px;" class="content-font-family content-font-size">
+
+                                                    <div class="moveArea">
+
+                                                        <div class="removeFromHere movable">
+
+                                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="" valign="top">
+                                                                            <div contenteditable="true" class="contenteditable image" data-maxWidth="563" data-maxHeight="150">
+                                                                                <img id="edit-image-trigger" src="http://placehold.it/563x150" style="max-width: 100%;" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                            <br style="clear:both;">
+                                                        </div>
+                                                        <div class="removeFromHere movable">
+                                                            <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="top" class=" content-text-align">
+                                                                            <div contenteditable="true" class="contenteditable">
+                                                                                <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #009FB0;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></span>
+                                                                                <br>
+                                                                                <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#393939; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <div class="button-container" id="add-module-trigger">
+                                                        <button type="button" class="anadir" data-module-type="mod-img-texto-grande">
+                                                            <i class="ico-add-content"></i>&nbsp;
+                                                            <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
+                                                        </button>
+                                                    </div>
+
+                                                    <img border="0" src="<%=BACKEND_URL%>/img/email-templates/spacer.gif" width="1" height="20" class="divider">
+                                                    <br style="clear:both;">
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                    <!-- #########  FIN Contenido ########### -->
+
+                                    <!-- #########  Social ########### -->
+                                    <div class="removeFromHere move-disabled">
+
+
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table content-background-color general-font-family" data-place="social" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; text-align: left; width: 100%;">
+                                            <tbody>
+
+                                            <tr>
+                                                <td valign="top" align="center" style="padding: 18px;">
+
+                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-social social-background-color" style="background-color: #ffffff; padding: 10px 9px 10px 9px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td style="text-align: center;" align="center">
+
+                                                                <table id="socialContainer" class="dashed" data-button="borrar social" style="display: inline-block; padding: 10px 10px 0px 10px;">
+                                                                    <tr>
+                                                                        <td><p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p></td>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- #########  FIN Social ########### -->
+
+                                    <br style="clear:both;">
+                                    <!-- #########  Pie ########### -->
+                                    <div class="removeFromHere">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table footer-background-color general-font-family footer-font-family footer-font-size footer-text-color footer-text-align" data-place="footer" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 12px; color: #393939; background-color: #fff; width: 100%; ">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="middle" class="dashed footer-font-size footer-text-color footer-text-align" data-button="borrar" style="padding: 20px;margin:20px;color:inherit; font-size: inherit; font-family: inherit;text-align: inherit;line-height: 1em;">
+                                                        <div contenteditable="true" class="contenteditable">
+                                                            © <%= new Date().getFullYear()%>
+                                                            <span class="i18n" data-i18n="TEMPLATES.MODULES.TXT_YOUR_COMPANY"></span>
+                                                            |
+                                                            <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.TXT_PRIVACY_POLICY"></a>
+                                                            |
+                                                            <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.LEGAL_WARNING"></a>
+                                                            |
+                                                            <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.TXT_YOUR_WEB"></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- #########  FIN Pie ########### -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</center>
