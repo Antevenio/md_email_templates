@@ -28,9 +28,9 @@
 			#layout{width:600px;}
 
 
-			#headerImage{
+			.headerImage{
 				height:auto;
-				max-width:600px;
+				max-width:590px;
 			}
 
 			
@@ -159,9 +159,9 @@
 				* @section header image
 				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
 				*/
-				#headerImage{
+				.headerImage{
 					height:auto !important;
-					/*@editable*/ max-width:600px !important;
+					/*@editable*/ max-width:590px !important;
 					/*@editable*/ width:100% !important;
 				}
 
@@ -256,7 +256,7 @@
         <tbody>
             <tr>
                 <td  id="bodyCell" valign="top" align="center">
-                    <table width="600" cellpadding="0" cellspacing="0" border="0" id="layout" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #EEEEEE; border-style: solid; width: 600px;">
+                    <table  id="layout" width="600" cellpadding="0" cellspacing="0" border="0" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #EEEEEE; border-style: solid; width: 600px;">
                         <tbody>
                             <tr>
                                 <td width="100%">
@@ -282,28 +282,24 @@
                                         <tr>
                                             <td valign="top" style="padding: 20px;" class="content-font-family content-font-size">
 
-                                                <div class="moveArea">
+                                                <div class="moveArea movable">
 
-                                                    <div class="removeFromHere movable">
 
-                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="removeFromHere mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
                                                             <tbody>
                                                             <tr>
                                                                 <td style="" valign="top">
                                                                     <div contenteditable="true" class="contenteditable image" data-maxWidth="590" data-maxHeight="160">
-                                                                        <img id="edit-image-trigger" src="http://placehold.it/590x160" style="max-width: 100%;" alt="">
+                                                                        <img id="edit-image-trigger" src="http://placehold.it/590x160" style="max-width: 590px;" class="headerImage" alt="">
                                                                     </div>
                                                                 </td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
 
-                                                        <br style="clear:both;">
-                                                    </div>
 
-                                                    <div class="removeFromHere movable">
 
-                                                        <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+                                                        <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="removeFromHere mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
                                                             <tbody>
                                                             <tr>
                                                                 <td valign="top" class="content-text-align">
@@ -315,8 +311,8 @@
                                                                 </td>
                                                             </tr>
                                                             </tbody>
-                                                        </table>
-                                                    </div>
+                                                        </table>                                                    
+                                                    
                                                 </div>
                                                 <div class="button-container" id="add-module-trigger">
                                                     <button type="button" class="anadir" data-module-type="mod-img-texto-grande">
@@ -325,7 +321,7 @@
                                                     </button>
                                                 </div>
                                                 <img border="0" src="<%=BACKEND_URL%>/img/email-templates/spacer.gif" width="1" height="20" class="divider">
-                                                <br style="clear:both;">
+                                                
                                             </td>
                                         </tr>
                                         </tbody>
@@ -345,7 +341,7 @@
                                                                 <td width="32%" class="templateColumnContainer" >
                                                                     <div class="dashed cont" data-button="borrar mover" style="width: 100%; margin-right: 35px;float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
                                                                         <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
-                                                                            <img src="http://placehold.it/197x100" style="width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                                                                            <img src="http://placehold.it/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
                                                                         </div>
                                                                         <div contenteditable="true" class="contenteditable">
                                                                             <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
@@ -357,7 +353,7 @@
                                                                 <td width="32%" class="templateColumnContainer" >
                                                                     <div class="dashed cont" data-button="borrar mover" style="width: 100%; margin-right: 35px;float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
                                                                         <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
-                                                                            <img src="http://placehold.it/197x100" style="width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                                                                            <img src="http://placehold.it/197x100" style="max-width 197px; margin-bottom: 10px;" alt="" class="columnImage">
                                                                         </div>
                                                                         <div contenteditable="true" class="contenteditable">
                                                                             <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
@@ -369,7 +365,7 @@
                                                                 <td width="32%" class="templateColumnContainer" >
                                                                     <div class="dashed cont" data-button="borrar mover" style="width: 100%; margin-right: 35px;float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
                                                                         <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
-                                                                            <img src="http://placehold.it/197x100" style="width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                                                                            <img src="http://placehold.it/197x100" style="max-width 197px; margin-bottom: 10px;" alt="" class="columnImage">
                                                                         </div>
                                                                         <div contenteditable="true" class="contenteditable">
                                                                             <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
@@ -379,7 +375,9 @@
                                                                 </td>
                                                             </tr>
                                                         </table>
-                                                        <span style="width: 100%; display: inline-block; font-size: 0; line-height: 0"></span>
+                                                       
+                                                        
+                                                        
                                                     </div>
                                                 </div>
                                                 <div class="button-container">
