@@ -1,459 +1,357 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--TEMPLATE_MD<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">TEMPLATE_MD-->
+
 <html xmlns="http://www.w3.org/1999/xhtml">
-     <!--TEMPLATE_MD<html xmlns="http://www.w3.org/1999/xhtml">TEMPLATE_MD-->
+
     <head>        
-     <!--TEMPLATE_MD<head>TEMPLATE_MD-->
-     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<style type="text/css">
-			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
-			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
-			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
-			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
-			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
-			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
-			body{margin:0; padding:0;}
-			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-			table{border-collapse:collapse !important;}
-			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <style type="text/css">
+                /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+                #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+                .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+                .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+                body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+                table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+                img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+                /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+                body{margin:0; padding:0;}
+                img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+                table{border-collapse:collapse !important;}
+                body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
-			/* ========== Page Styles ========== */
+                /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
 
-			#bodyCell{padding:20px;}
-			#layout{width:600px;}
+                /* ========== Page Styles ========== */
 
-
-			.headerImage{
-				height:auto;
-				max-width:590px;
-			}
-
-			
-			.bodyContent{
-				padding-top:20px;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-			}
-
-			.bodyContent img{
-				display:inline;
-				height:auto;
-				max-width:560px;
-			}
-
-			/* ========== Column Styles ========== */
-
-			.templateColumnContainer{width:200px;}
-
-			/**
-			* @tab Columns
-			* @section column style
-			* @tip Set the background color and borders for your email's column area.
-			*/
-
-			/**
-			* @tab Columns
-			* @section left column text
-			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
-			*/
-			.leftColumnContent{
-				padding-top:0;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-			}
-
-			/**
-			* @tab Columns
-			* @section left column link
-			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
-			*/
-
-			/**
-			* @tab Columns
-			* @section center column text
-			* @tip Set the styling for your email's center column content text. Choose a size and color that is easy to read.
-			*/
-			.centerColumnContent{
-				padding-top:0;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-			}
+                /*#bodyCell{padding:20px;}*/
+                #layout{width:600px;}
 
 
-			/**
-			* @tab Columns
-			* @section right column text
-			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
-			*/
-			.rightColumnContent{
-				padding-top:0;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-			}
+                .headerImage{
+                    height:auto;
+                    max-width:590px;
+                }
 
-			/**
-			* @tab Columns
-			* @section right column link
-			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
-			*/
-                        
-			.leftColumnContent img, .rightColumnContent img{
-				display:inline;
-				height:auto;
-				max-width:260px;
-			}
+                .bodyContent img{
+                    display:inline;
+                    height:auto;
+                    max-width:560px;
+                }
 
-			/**
-			* @tab Footer
-			* @section footer text
-			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
-			* @theme footer
-			*/
-			.footerContent{
-				padding-top:20px;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-			}
+                /* ========== Column Styles ========== */
+
+                .templateColumnContainer{width:200px;}
 
 
-			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+                /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
 
-            @media only screen and (max-width: 480px){
-				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
-				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
-                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+                @media only screen and (max-width: 480px){
+                    /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+                    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                    body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
 
-				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
-				#bodyCell{padding:10px !important;}
+                    /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+                    #bodyCell{padding:10px !important;}
 
-				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+                    /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
 
-				/* ======== Page Styles ======== */
+                    /* ======== Page Styles ======== */
 
-				/**
-				* @tab Mobile Styles
-				* @section template width
-				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
-				*/
-				#layout{
-					max-width:600px !important;
-					/*@editable*/ width:100% !important;
-				}				
+                    /**
+                    * @tab Mobile Styles
+                    * @section template width
+                    * @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+                    */
+                    #layout{
+                        max-width:600px !important;
+                        /*@editable*/ width:100% !important;
+                    }				
 
-				/* ======== Header Styles ======== */
+                    /* ======== Header Styles ======== */
 
-				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+                    #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
 
-				/**
-				* @tab Mobile Styles
-				* @section header image
-				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
-				*/
-				.headerImage{
-					height:auto !important;
-					/*@editable*/ max-width:590px !important;
-					/*@editable*/ width:100% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section header image
+                    * @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                    */
+                    .headerImage{
+                        height:auto !important;
+                        /*@editable*/ max-width:590px !important;
+                        /*@editable*/ width:100% !important;
+                    }
 
-				/**
-				* @tab Mobile Styles
-				* @section header text
-				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-				*/
-				.headerContent{
-					/*@editable*/ font-size:20px !important;
-					/*@editable*/ line-height:125% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section header text
+                    * @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .headerContent{
+                        /*@editable*/ font-size:20px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
 
-				/* ======== Body Styles ======== */
+                    /* ======== Body Styles ======== */
 
-				/**
-				* @tab Mobile Styles
-				* @section body text
-				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-				*/
-				.bodyContent{
-					/*@editable*/ font-size:18px !important;
-					/*@editable*/ line-height:125% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section body text
+                    * @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .bodyContent{
+                        /*@editable*/ font-size:18px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
 
-				/* ======== Column Styles ======== */
+                    /* ======== Column Styles ======== */
 
-				.templateColumnContainer{display:block !important; width:100% !important;}
+                    .templateColumnContainer{display:block !important; width:100% !important;}
 
-				/**
-				* @tab Mobile Styles
-				* @section column image
-				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
-				*/
-				.columnImage{
-					height:auto !important;
-					/*@editable*/ max-width:480px !important;
-					/*@editable*/ width:100% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section column image
+                    * @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                    */
+                    .columnImage{
+                        height:auto !important;
+                        /*@editable*/ max-width:480px !important;
+                        /*@editable*/ width:100% !important;
+                    }
 
-				/**
-				* @tab Mobile Styles
-				* @section left column text
-				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-				*/
-				.leftColumnContent{
-					/*@editable*/ font-size:16px !important;
-					/*@editable*/ line-height:125% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section left column text
+                    * @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .leftColumnContent{
+                        /*@editable*/ font-size:16px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
 
-				/**
-				* @tab Mobile Styles
-				* @section center column text
-				* @tip Make the center column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-				*/
-				.centerColumnContent{
-					/*@editable*/ font-size:16px !important;
-					/*@editable*/ line-height:125% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section center column text
+                    * @tip Make the center column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .centerColumnContent{
+                        /*@editable*/ font-size:16px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
 
-				/**
-				* @tab Mobile Styles
-				* @section right column text
-				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-				*/
-				.rightColumnContent{
-					/*@editable*/ font-size:16px !important;
-					/*@editable*/ line-height:125% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section right column text
+                    * @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .rightColumnContent{
+                        /*@editable*/ font-size:16px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
 
-				/* ======== Footer Styles ======== */
+                    /* ======== Footer Styles ======== */
 
-				/**
-				* @tab Mobile Styles
-				* @section footer text
-				* @tip Make the body content text larger in size for better readability on small screens.
-				*/
-				.footerContent{
-					/*@editable*/ font-size:14px !important;
-					/*@editable*/ line-height:115% !important;
-				}
+                    /**
+                    * @tab Mobile Styles
+                    * @section footer text
+                    * @tip Make the body content text larger in size for better readability on small screens.
+                    */
+                    .footerContent{
+                        /*@editable*/ font-size:14px !important;
+                        /*@editable*/ line-height:115% !important;
+                    }
 
-				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
-			}
-		</style>
+                    .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+                }
+            </style>
     </head>
-    <!--TEMPLATE_MD</head>TEMPLATE_MD-->
+
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">        
-    <!--TEMPLATE_MD<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">TEMPLATE_MD-->
-<center>
-    <table  id="bodyTable" width="100%" cellpadding="0" cellspacing="0" border="0" data-place="general" class="general-background-color general-font-family-general" style="font-family: HelveticaNeue, Arial, sans-serif;background-color: #EEEEEE;">
-        <tbody>
-            <tr>
-                <td  id="bodyCell" valign="top" align="center">
-                    <table  id="layout" width="600" cellpadding="0" cellspacing="0" border="0" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #EEEEEE; border-style: solid; width: 600px;">
-                        <tbody>
-                            <tr>
-                                <td width="100%">
-                                    <!-- #########  Cabecera ########### -->
 
-                                    <div class="removeFromHere">
-                                        <table  id="templateHeader" width="100%" cellpadding="0" cellspacing="0" border="0" data-place="header" class="table header-font-family header-font-size header-font-weight header-text-align header-text-color header-background-color" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 24px; color: #393939; background-color: #ffffff; width: 100%; height: 200px; text-align: center;">
-                                            <tbody>
-                                                <tr>
-                                                    <td valign="middle" style="text-align: inherit; vertical-align: middle; line-height: 1em;" class="header-font-size header-font-weight general-font-family header-font-family dashed" data-button="borrar">
-                                                        <div contenteditable="true" class="contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_HEAD_TITLE">
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- #########  FIN Cabecera ########### -->
-                                    <br style="clear:both;">
-                                    <!-- #########  Contenido ########### -->
-                                    <table id="templateBody" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table content-background-color content-font-family general-font-family" data-place="content" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #393939; background-color: #ffffff; text-align: left; width: 100%;">
-                                        <tbody>
-                                        <tr>
-                                            <td valign="top" style="padding: 20px;" class="content-font-family content-font-size">
+        <center>
+            <table  id="bodyTable" width="100%" cellpadding="0" cellspacing="0" border="0" data-place="general" class="general-background-color general-font-family-general" style="font-family: HelveticaNeue, Arial, sans-serif;background-color: #EEEEEE;">
+                <tbody>
+                    <tr>
+                        <td  id="bodyCell" valign="top" align="center">
+                            <table  id="layout" width="600" cellpadding="0" cellspacing="0" border="0" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #EEEEEE; border-style: solid; max-width:600px; ">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <!-- #########  Cabecera ########### -->
 
-                                                <div class="moveArea movable">
-
-
-                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="removeFromHere mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td style="" valign="top">
-                                                                    <div contenteditable="true" class="contenteditable image" data-maxWidth="590" data-maxHeight="160">
-                                                                        <img id="edit-image-trigger" src="http://placehold.it/590x160" style="max-width: 590px;" class="headerImage" alt="">
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-
-
-
-                                                        <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="removeFromHere mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td valign="top" class="content-text-align">
-                                                                    <div contenteditable="true" class="contenteditable">
-                                                                        <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></span>
-                                                                        <br />
-                                                                        <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>                                                    
-                                                    
-                                                </div>
-                                                <div class="button-container" id="add-module-trigger">
-                                                    <button type="button" class="anadir" data-module-type="mod-img-texto-grande">
-                                                        <i class="ico-add-content"></i>&nbsp;
-                                                        <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
-                                                    </button>
-                                                </div>
-                                                <img border="0" src="<%=BACKEND_URL%>/img/email-templates/spacer.gif" width="1" height="20" class="divider">
-                                                
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                    <!-- #########  FIN Contenido ########### -->
-                                    <br style="clear:both;">
-                                    <!-- #########  Área imágenes ########### -->
-
-                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table gallery-background-color gallery-font-family galeria-tres-col" data-place="gallery" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; text-align: left; width: 100%;">
-                                        <tbody>
-                                        <tr>
-                                            <td valign="top" style="padding: 10px 20px 20px 20px;" class="gallery-font-family gallery-font-size">
-                                                <div class="moveArea" style="text-align: justify; -ms-text-justify: distribute-all-lines; text-justify: distribute-all-lines;">
-                                                    <div class="removeFromHere movable">
-                                                        <table id="templateColumns"  width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
-                                                            <tr>
-                                                                <td width="32%" class="templateColumnContainer" >
-                                                                    <div class="dashed cont" data-button="borrar mover" style="width: 100%; margin-right: 35px;float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
-                                                                        <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
-                                                                            <img src="http://placehold.it/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
-                                                                        </div>
-                                                                        <div contenteditable="true" class="contenteditable">
-                                                                            <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
-                                                                            <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td width="2%" class="templateColumnContainer" >&nbsp;</td>
-                                                                <td width="32%" class="templateColumnContainer" >
-                                                                    <div class="dashed cont" data-button="borrar mover" style="width: 100%; margin-right: 35px;float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
-                                                                        <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
-                                                                            <img src="http://placehold.it/197x100" style="max-width 197px; margin-bottom: 10px;" alt="" class="columnImage">
-                                                                        </div>
-                                                                        <div contenteditable="true" class="contenteditable">
-                                                                            <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
-                                                                            <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td width="2%" class="templateColumnContainer" >&nbsp;</td>
-                                                                <td width="32%" class="templateColumnContainer" >
-                                                                    <div class="dashed cont" data-button="borrar mover" style="width: 100%; margin-right: 35px;float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
-                                                                        <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
-                                                                            <img src="http://placehold.it/197x100" style="max-width 197px; margin-bottom: 10px;" alt="" class="columnImage">
-                                                                        </div>
-                                                                        <div contenteditable="true" class="contenteditable">
-                                                                            <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
-                                                                            <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                       
-                                                        
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="button-container">
-                                                    <button type="button" class="anadir" data-module-type="mod-galeria-tres-col">
-                                                        <i class="ico-add-content"></i>&nbsp;
-                                                        <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
-                                                    </button>
-                                                </div>
-                                                <img border="0" src="img/email-templates/spacer.gif" width="1" height="20" class="divider">
-                                                <br style="clear:both;">
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                    <!-- FIN Área imágenes -->
-
-                                    <!-- #########  Social ########### -->
-                                    <div class="removeFromHere move-disabled">
-                                        <table id="templateFooter" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table social-background-color general-font-family social-font-family" data-place="social" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; text-align: left; width: 100%;">
-                                            <tbody>
-                                            <tr>
-                                                <td class="footerContent" valign="top" align="center" style="padding: 18px;">
-                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-social social-background-color" style="background-color: #ffffff; padding: 10px 9px 10px 9px;">
-                                                        <tbody>
+                                            <div class="removeFromHere">
+                                                <table  id="templateHeader" width="100%" cellpadding="0" cellspacing="0" border="0" data-place="header" class="table header-font-family header-font-size header-font-weight header-text-align header-text-color header-background-color" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 24px; color: #393939; background-color: #ffffff; width: 100%; height: 200px; text-align: center;">
+                                                    <tbody>
                                                         <tr>
-                                                            <td style="text-align: center;" align="center">
+                                                            <td valign="middle" style="text-align: inherit; vertical-align: middle; line-height: 1em;" class="header-font-size header-font-weight general-font-family header-font-family dashed" data-button="borrar">
+                                                                <div contenteditable="true" class="contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_HEAD_TITLE">
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <!-- #########  FIN Cabecera ########### -->
+                                            <!-- #########  Contenido ########### -->
+                                            <table id="templateBody" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table content-background-color content-font-family general-font-family" data-place="content" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #393939; background-color: #ffffff; text-align: left; width: 100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td valign="top" style="padding: 20px;" class="content-font-family content-font-size">
 
-                                                                <table id="socialContainer" class="dashed" data-button="borrar social" style="display: inline-block; padding: 10px 10px 0px 10px;">
+                                                            <div class="moveArea movable">
+
+
+                                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="removeFromHere mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px; max-width:590px;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="" valign="top">
+                                                                                <div contenteditable="true" class="contenteditable image" data-maxWidth="590" data-maxHeight="160">
+                                                                                    <img id="edit-image-trigger" src="<%= BACKEND_URL %>/placeholder/s/590x160" style="max-width: 590px;" class="headerImage" alt="">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+
+
+
+                                                                <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="removeFromHere mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td valign="top" class="content-text-align">
+                                                                                <div contenteditable="true" class="contenteditable">
+                                                                                    <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></span>
+                                                                                    <br />
+                                                                                    <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>                                                    
+
+                                                            </div>
+                                                            <div class="button-container" id="add-module-trigger">
+                                                                <button type="button" class="anadir" data-module-type="mod-img-texto-grande">
+                                                                    <i class="ico-add-content"></i>&nbsp;
+                                                                    <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
+                                                                </button>
+                                                            </div>
+                                                            <img border="0" src="<%=BACKEND_URL%>/img/email-templates/spacer.gif" width="1" height="20" class="divider">
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- #########  FIN Contenido ########### -->
+                                            <br style="clear:both;"/>
+                                            <!-- #########  Área imágenes ########### -->
+
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table gallery-background-color gallery-font-family galeria-tres-col" data-place="gallery" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; text-align: left; width: 100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td valign="top" style="padding: 10px 20px 20px 20px;" class="gallery-font-family gallery-font-size">
+                                                            <div class="moveArea" style="text-align: justify; -ms-text-justify: distribute-all-lines; text-justify: distribute-all-lines;">
+                                                                <table class="dashed cont removeFromHere movable" data-button="borrar mover"  id="templateColumns"  width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
                                                                     <tr>
-                                                                        <td><p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p></td>
+                                                                        <td width="32%" class="templateColumnContainer" >
+                                                                            <div style="width: 100%; float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
+                                                                                <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
+                                                                                    <img src="<%= BACKEND_URL %>/placeholder/s/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                                                                                </div>
+                                                                                <div contenteditable="true" class="contenteditable">
+                                                                                    <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                                                                                    <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="templateColumnContainer" style="width: 2%; max-width: 4px;">&nbsp;</td>
+                                                                        <td width="32%" class="templateColumnContainer" >
+                                                                            <div style="width: 100%; float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
+                                                                                <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
+                                                                                    <img src="<%= BACKEND_URL %>/placeholder/s/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                                                                                </div>
+                                                                                <div contenteditable="true" class="contenteditable">
+                                                                                    <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                                                                                    <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="templateColumnContainer" style="width: 2%; max-width: 4px;">&nbsp;</td>
+                                                                        <td width="32%" class="templateColumnContainer" >
+                                                                            <div style="width: 100%; float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
+                                                                                <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
+                                                                                    <img src="<%= BACKEND_URL %>/placeholder/s/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                                                                                </div>
+                                                                                <div contenteditable="true" class="contenteditable">
+                                                                                    <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                                                                                    <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
                                                                     </tr>
                                                                 </table>
 
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <button type="button" class="anadir" data-module-type="mod-galeria-tres-col">
+                                                                    <i class="ico-add-content"></i>&nbsp;
+                                                                    <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
+                                                                </button>
+                                                            </div>
+                                                            <img border="0" src="img/email-templates/spacer.gif" width="1" height="20" class="divider">
+                                                                <br style="clear:both;"/>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- FIN Área imágenes -->
+                                            <br style="clear:both;"/>
+                                            <!-- #########  Social ########### -->
+                                            <div class="removeFromHere move-disabled">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-social social-background-color social-text-align" style=" text-align: center; background-color: #ffffff; padding: 10px 9px 10px 9px;" data-place="social">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div id="socialContainer" class="dashed" data-button="borrar social" style="display: inline-block; padding: 2% 0% 0% 0%;">
+                                                                    <p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p>
+                                                                </div>
                                                             </td>
                                                         </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- #########  FIN Social ########### -->
-
-                                    <br style="clear:both;">
-                                    <!-- #########  Pie ########### -->
-                                    <div class="removeFromHere">
-                                        <table id="templateFooter" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table footer-background-color general-font-family footer-font-family footer-font-size footer-text-color footer-text-align" data-place="footer" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 12px; color: #393939; background-color: #fff; width: 100%; text-align: center;">
-                                            <tbody>
-                                                <tr>
-                                                    <td valign="middle" class="footerContent dashed footer-font-size footer-text-color footer-text-align" data-button="borrar" style="padding: 20px;margin:20px;color:inherit; font-size: inherit; font-family: inherit;text-align: inherit;line-height: 1em;">
-                                                        <div contenteditable="true" class="contenteditable">
-                                                            © <%= new Date().getFullYear()%>
-                                                            <span class="i18n" data-i18n="TEMPLATES.MODULES.TXT_YOUR_COMPANY"></span>
-                                                            |
-                                                            <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.TXT_PRIVACY_POLICY"></a>
-                                                            |
-                                                            <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.LEGAL_WARNING"></a>
-                                                            |
-                                                            <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.TXT_YOUR_WEB"></a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- #########  FIN Pie ########### -->
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</center>
-<!--TEMPLATE_MD</body>TEMPLATE_MD-->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <!-- #########  FIN Social ########### -->
+                                            <!-- #########  Pie ########### -->
+                                            <div class="removeFromHere">
+                                                <table id="templateFooter" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table footer-background-color general-font-family footer-font-family footer-font-size footer-text-color footer-text-align" data-place="footer" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 12px; color: #393939; background-color: #fff; width: 100%; text-align: center;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign="middle" class="footerContent dashed footer-font-size footer-text-color footer-text-align" data-button="borrar" style="padding: 20px;margin:20px;color:inherit; font-size: inherit; font-family: inherit;text-align: inherit;line-height: 1em;">
+                                                                <div contenteditable="true" class="contenteditable">
+                                                                    © <%= new Date().getFullYear()%>
+                                                                    <span class="i18n" data-i18n="TEMPLATES.MODULES.TXT_YOUR_COMPANY"></span>
+                                                                    |
+                                                                    <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.TXT_PRIVACY_POLICY"></a>
+                                                                    |
+                                                                    <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.LEGAL_WARNING"></a>
+                                                                    |
+                                                                    <a href="#" target="_blank" class="footer-link-color i18n" style="text-decoration: underline;color: #393939;" data-i18n="TEMPLATES.MODULES.TXT_YOUR_WEB"></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <!-- #########  FIN Pie ########### -->
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </body>
 </html>
-<!--TEMPLATE_MD</html>TEMPLATE_MD-->

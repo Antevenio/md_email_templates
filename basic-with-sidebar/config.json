@@ -1,0 +1,20 @@
+{
+    "id": "basic-with-sidebar",
+    "author": "MDirector Team",
+    "name": {
+        "es": "Básico + Sidebar",
+        "it": "Standard + Sidebar",
+        "fr": "Basique + Sidebar"
+    },
+    "description": {
+        "es": "Plantilla básica de una columna + sidebar.",
+        "it": "Template standard di una colonna + sidebar",
+        "fr": "Template basique à une colonne + sidebar"
+    },
+    "responsive": true,
+    "supported": ["Firefox", "Chrome", "IE9+", "Gmail", "Outlook"],
+    "sections": ["general", "header", "content", "footer", "social", "sidebar", "gallery"],
+    "social_icon_theme": "default",
+    "hasModules": true,
+    "category": "basic"
+}

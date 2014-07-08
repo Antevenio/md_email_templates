@@ -8,7 +8,8 @@ define([],function() {
     	"responsive": true,
     	"supported": ["Firefox","Chrome","IE9+","Gmail","Outlook"],
     	"sections": ["general","header","content","footer","social","sidebar","gallery"],
-    	"social_icon_theme": "default"
+    	"social_icon_theme": "default",
+        "hasModules": true
     };
 
 });

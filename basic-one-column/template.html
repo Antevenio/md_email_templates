@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--TEMPLATE_MD<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">TEMPLATE_MD-->
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!--TEMPLATE_MD<html xmlns="http://www.w3.org/1999/xhtml">TEMPLATE_MD-->
-    <head>        
-        <!--TEMPLATE_MD<head>TEMPLATE_MD-->
 
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+     
+    <head>        
+     
+     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <style type="text/css">
             /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
@@ -132,15 +131,15 @@
             }
         </style>
     </head>
-    <!--TEMPLATE_MD</head>TEMPLATE_MD-->
+    
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">        
-        <!--TEMPLATE_MD<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">TEMPLATE_MD-->
+        
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" data-place="general" class="general-background-color general-font-family" style="font-family: HelveticaNeue, Arial, sans-serif;background-color: #eeeeee;">
                 <tr>
                     <td align="center" valign="top" id="bodyCell">
                         <!-- BEGIN TEMPLATE // -->
-                        <table border="0" cellpadding="0" cellspacing="0" id="layout" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #eeeeee; border-style: solid;">
+                        <table border="0" cellpadding="0" cellspacing="0" id="layout" class="general-border-style general-border-width general-border-color" style="border-width: 0; border-color: #eeeeee; border-style: solid; max-width:600px; ">
 
                             <tr>
                                 <td align="center" valign="top">
@@ -181,7 +180,7 @@
                                                                                 <tr>
                                                                                     <td style="" valign="top">
                                                                                         <div contenteditable="true" class="contenteditable image" data-maxWidth="563" data-maxHeight="150">
-                                                                                            <img id="edit-image-trigger" src="http://placehold.it/563x150" style="max-width: 100%;" alt="">
+                                                                                            <img id="edit-image-trigger" src="<%= BACKEND_URL %>/placeholder/s/563x150" style="max-width: 100%;" alt="">
                                                                                         </div>
                                                                                     </td>
                                                                                 </tr>
@@ -228,33 +227,17 @@
 
                                         <tr class="removeFromHere move-disabled">
                                             <td valign="top" class="bodyContent">
-
-
-                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table content-background-color general-font-family" data-place="social" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; text-align: left; width: 100%;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-social social-background-color social-text-align" style=" text-align: center; background-color: #ffffff; padding: 10px 9px 10px 9px;" data-place="social">
                                                     <tbody>
                                                         <tr>
-                                                            <td valign="top" align="center" style="padding: 18px;">
-
-                                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-social social-background-color" style="background-color: #ffffff; padding: 10px 9px 10px 9px;">
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <td style="text-align: center;" align="center">
-
-                                                                                <table id="socialContainer" class="dashed" data-button="borrar social" style="display: inline-block; padding: 10px 10px 0px 10px;">
-                                                                                    <tr>
-                                                                                        <td><p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p></td>
-                                                                                    </tr>
-                                                                                </table>
-
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
+                                                            <td>
+                                                                <div id="socialContainer" class="dashed" data-button="borrar social" style="display: inline-block; padding: 2% 0% 0% 0%;">
+                                                                    <p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p>
+                                                                </div>
                                                             </td>
                                                         </tr>
                                                     </tbody>
-                                                </table>                                                                    
-
+                                                </table>
                                             </td>
                                         </tr>
 
@@ -304,6 +287,6 @@
 
 
     </body>    
-    <!--TEMPLATE_MD</body>TEMPLATE_MD-->
+    
 </html>
-<!--TEMPLATE_MD</html>TEMPLATE_MD-->
+

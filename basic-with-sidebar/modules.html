@@ -1,4 +1,3 @@
-
 <!-- Módulo imagen texto grande  -->
 <div class="mod-img-texto-grande">
     <div class="removeFromHere movable">
@@ -7,16 +6,18 @@
                 <tr>
                     <td style="" valign="top">
                         <div contenteditable="true" class="contenteditable image" data-maxWidth="563" data-maxHeight="150">
-                            <img src="http://placehold.it/563x150" style="max-width: 100%;" alt="">
+                            <img id="edit-image-trigger" src="<%= BACKEND_URL %>/placeholder/s/563x150" style="max-width: 100%;" alt="">
                         </div>
                     </td>
                 </tr>
             </tbody>
         </table>
+
         <br style="clear:both;">
     </div>
+
     <div class="removeFromHere movable">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+        <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
             <tbody>
                 <tr>
                     <td valign="top" class=" content-text-align">
@@ -32,7 +33,6 @@
     </div>
 </div>
 <!-- FIN Módulo imagen texto grande  -->
-
 <!-- Módulo imagen texto pequeño  -->
 <div class="mod-img-texto-peque">
     <div class="removeFromHere movable">
@@ -41,7 +41,7 @@
                 <tr>
                     <td style="" valign="top">
                         <div contenteditable="true" class="contenteditable image" data-maxWidth="390" data-maxHeight="100">
-                            <img src="http://placehold.it/390x100" style="max-width: 100%;" alt="">
+                            <img src="<%= BACKEND_URL %>/placeholder/s/390x100" style="max-width: 100%;" alt="">
                         </div>
                     </td>
                 </tr>
@@ -75,7 +75,7 @@
     <div class="removeFromHere movable">
         <div class="dashed" data-button="borrar mover" style="width: auto;">
             <div contenteditable="true" class="contenteditable image" data-maxWidth="148" data-maxHeight="75">
-                <img src="http://placehold.it/148x75" style="max-width: 100%; margin-bottom: 10px;" alt="">
+                <img src="<%= BACKEND_URL %>/placeholder/s/148x75" style="max-width: 148px; margin-bottom: 10px;" alt="">
             </div>
             <div contenteditable="false" class="contenteditable">
                 <div class="gallery-text-align gallery-font-size gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color: #393939;line-height: 1em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>

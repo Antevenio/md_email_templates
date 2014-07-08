@@ -1,0 +1,19 @@
+{
+    "id": "basic-three-columns",
+    "author": "MDirector Team",
+    "name": {
+        "es": "Básico 3 Columnas",
+        "it": "Standard 3 Colonne",
+        "fr": "Basique 3 Colonnes"
+    },
+    "description": {
+        "es": "Añade modulos del tipo galeria de imagenes de tres columnas e imagen+parrafo.",
+        "it": "Aggiungi moduli del tipo galleria d’immagini di tre colonne e immagine +paragrafo",
+        "fr": "Ajoutez des modules du type galerie d'images à trois colonnes et image+paragraphe"
+    },
+    "responsive": true,
+    "supported": ["Firefox", "Chrome", "IE9+", "Gmail", "Outlook"],
+    "sections": ["general", "header", "content", "footer", "social", "gallery"],
+    "social_icon_theme": "default",
+    "category": "basic"
+}
