@@ -1,409 +1,410 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-     
+
     <head>        
-     
-     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-       <style type="text/css">
-            /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
-            #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
-            .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
-            body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
-            table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
-            img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-            /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
-            body{margin:0; padding:0;}
-            img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-            table{border-collapse:collapse !important;}
-            body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <style type="text/css">
+                /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+                #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+                .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+                .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+                body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+                table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+                img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-            /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+                /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+                body{margin:0; padding:0;}
+                img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+                table{border-collapse:collapse !important;}
+                body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
-            /* ========== Page Styles ========== */
+                /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
 
-            #bodyCell{padding:20px;}
-            #templateContainer{width:600px;}
- 
-            /**
-            * @tab Page
-            * @section background style
-            * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
-            * @theme page
-            */
+                /* ========== Page Styles ========== */
 
-            /**
-            * @tab Page
-            * @section heading 1
-            * @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-            * @style heading 1
-            */
-            /* ========== Header Styles ========== */
-
-            /**
-            * @tab Header
-            * @section preheader style
-            * @tip Set the background color and bottom border for your email's preheader area.
-            * @theme header
-            */
-            #templatePreheader{
-                /*@editable*/ border-bottom:1px solid #CCCCCC;
-            }
-
-            /**
-            * @tab Header
-            * @section preheader text
-            * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
-            */
-            .preheaderContent{
-                /*@editable*/ line-height:125%;
-            }
-
-            /**
-            * @tab Header
-            * @section preheader link
-            * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
-            */
-            .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ text-decoration:underline;
-            }
-
-            /**
-            * @tab Header
-            * @section header style
-            * @tip Set the background color and borders for your email's header area.
-            * @theme header
-            */
-            #templateHeader{
-                /*@editable*/ border-top:1px solid #FFFFFF;
-                /*@editable*/ border-bottom:1px solid #CCCCCC;
-            }
-
-            /**
-            * @tab Header
-            * @section header text
-            * @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
-            */
-            .headerContent{
-                /*@editable*/ line-height:100%;
-                /*@editable*/ padding-top:0;
-                /*@editable*/ padding-right:0;
-                /*@editable*/ padding-bottom:0;
-                /*@editable*/ padding-left:0;
-            }
-
-            /**
-            * @tab Header
-            * @section header link
-            * @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
-            */
-            .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ text-decoration:underline;
-            }
-
-            #headerImage{
-                height:auto;
-                max-width:600px;
-            }
-
-            /* ========== Body Styles ========== */
-
-            /**
-            * @tab Body
-            * @section body style
-            * @tip Set the background color and borders for your email's body area.
-            */
-            #templateBody{
-                /*@editable*/ border-top:1px solid #FFFFFF;
-                /*@editable*/ border-bottom:1px solid #CCCCCC;
-            }
-
-            /**
-            * @tab Body
-            * @section body text
-            * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
-            * @theme main
-            */
-            .bodyContent{
-                /*@editable*/ line-height:150%;
-                padding-top:20px;
-                padding-right:20px;
-                padding-bottom:20px;
-                padding-left:20px;
-            }
-
-            /**
-            * @tab Body
-            * @section body link
-            * @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
-            */
-            .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ color:#EB4102;
-                /*@editable*/ text-decoration:underline;
-            }
-
-            .bodyContent img{
-                display:inline;
-                height:auto;
-                max-width:560px;
-            }
-
-            /* ========== Column Styles ========== */
-
-            .templateColumnContainer{width:260px;}
-
-            /**
-            * @tab Columns
-            * @section column style
-            * @tip Set the background color and borders for your email's column area.
-            */
-            #templateColumns{
-                /*@editable*/ border-top:1px solid #FFFFFF;
-                /*@editable*/ border-bottom:1px solid #CCCCCC;
-            }
-
-            /**
-            * @tab Columns
-            * @section left column text
-            * @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
-            */
-            .leftColumnContent{
-                /*@editable*/ line-height:150%;
-                padding-top:0;
-                padding-right:20px;
-                padding-bottom:20px;
-                padding-left:20px;
-            }
-
-            /**
-            * @tab Columns
-            * @section left column link
-            * @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
-            */
-            .leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ text-decoration:underline;
-            }
-
-            /**
-            * @tab Columns
-            * @section right column text
-            * @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
-            */
-            .rightColumnContent{
-                /*@editable*/ line-height:150%;
-                padding-top:0;
-                padding-right:20px;
-                padding-bottom:20px;
-                padding-left:20px;
-            }
-
-            /**
-            * @tab Columns
-            * @section right column link
-            * @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
-            */
-            .rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ text-decoration:underline;
-            }
-
-            .leftColumnContent img, .rightColumnContent img{
-                display:inline;
-                height:auto;
-                max-width:260px;
-            }
-
-            /* ========== Footer Styles ========== */
-
-            /**
-            * @tab Footer
-            * @section footer style
-            * @tip Set the background color and borders for your email's footer area.
-            * @theme footer
-            */
-            #templateFooter{
-                /*@editable*/ border-top:1px solid #FFFFFF;
-            }
-
-            /**
-            * @tab Footer
-            * @section footer text
-            * @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
-            * @theme footer
-            */
-            .footerContent{
-                /*@editable*/ line-height:150%;
-                padding-top:20px;
-                padding-right:20px;
-                padding-bottom:20px;
-                padding-left:20px;
-            }
-
-            /**
-            * @tab Footer
-            * @section footer link
-            * @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
-            */
-            .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{                
-                /*@editable*/ text-decoration:underline;
-            }
-
-            /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
-
-            @media only screen and (max-width: 480px){
-                /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
-                body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
-                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
-
-                /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
-                #bodyCell{padding:10px !important;}
-
-                /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
-
-                /* ======== Page Styles ======== */
+                #bodyCell{padding:20px;}
+                #templateContainer{width:600px;}
 
                 /**
-                * @tab Mobile Styles
-                * @section template width
-                * @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+                * @tab Page
+                * @section background style
+                * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+                * @theme page
                 */
-                #templateContainer{
-                    max-width:600px !important;
-                    /*@editable*/ width:100% !important;
-                }
 
                 /**
-                * @tab Mobile Styles
+                * @tab Page
                 * @section heading 1
-                * @tip Make the first-level headings larger in size for better readability on small screens.
+                * @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+                * @style heading 1
                 */
-                .h1{
-                    /*@editable*/ font-size:24px !important;
-                    /*@editable*/ line-height:100% !important;
+                /* ========== Header Styles ========== */
+
+                /**
+                * @tab Header
+                * @section preheader style
+                * @tip Set the background color and bottom border for your email's preheader area.
+                * @theme header
+                */
+                #templatePreheader{
+                    /*@editable*/ border-bottom:1px solid #CCCCCC;
                 }
 
                 /**
-                * @tab Mobile Styles
-                * @section heading 2
-                * @tip Make the second-level headings larger in size for better readability on small screens.
+                * @tab Header
+                * @section preheader text
+                * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
                 */
-                .h2{
-                    /*@editable*/ font-size:20px !important;
-                    /*@editable*/ line-height:100% !important;
+                .preheaderContent{
+                    /*@editable*/ line-height:125%;
                 }
 
                 /**
-                * @tab Mobile Styles
-                * @section heading 3
-                * @tip Make the third-level headings larger in size for better readability on small screens.
+                * @tab Header
+                * @section preheader link
+                * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
                 */
-                .h3{
-                    /*@editable*/ font-size:18px !important;
-                    /*@editable*/ line-height:100% !important;
+                .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+                    /*@editable*/ text-decoration:underline;
                 }
 
                 /**
-                * @tab Mobile Styles
-                * @section heading 4
-                * @tip Make the fourth-level headings larger in size for better readability on small screens.
+                * @tab Header
+                * @section header style
+                * @tip Set the background color and borders for your email's header area.
+                * @theme header
                 */
-                .h4{
-                    /*@editable*/ font-size:16px !important;
-                    /*@editable*/ line-height:100% !important;
-                }
-
-                /* ======== Header Styles ======== */
-
-                #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
-
-                /**
-                * @tab Mobile Styles
-                * @section header image
-                * @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
-                */
-                #headerImage{
-                    height:auto !important;
-                    /*@editable*/ max-width:600px !important;
-                    /*@editable*/ width:100% !important;
+                #templateHeader{
+                    /*@editable*/ border-top:1px solid #FFFFFF;
+                    /*@editable*/ border-bottom:1px solid #CCCCCC;
                 }
 
                 /**
-                * @tab Mobile Styles
+                * @tab Header
                 * @section header text
-                * @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                * @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
                 */
                 .headerContent{
-                    /*@editable*/ font-size:20px !important;
-                    /*@editable*/ line-height:125% !important;
+                    /*@editable*/ line-height:100%;
+                    /*@editable*/ padding-top:0;
+                    /*@editable*/ padding-right:0;
+                    /*@editable*/ padding-bottom:0;
+                    /*@editable*/ padding-left:0;
                 }
 
-                /* ======== Body Styles ======== */
+                /**
+                * @tab Header
+                * @section header link
+                * @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+                */
+                .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+                    /*@editable*/ text-decoration:underline;
+                }
+
+                #headerImage{
+                    height:auto;
+                    max-width:600px;
+                }
+
+                /* ========== Body Styles ========== */
 
                 /**
-                * @tab Mobile Styles
+                * @tab Body
+                * @section body style
+                * @tip Set the background color and borders for your email's body area.
+                */
+                #templateBody{
+                    /*@editable*/ border-top:1px solid #FFFFFF;
+                    /*@editable*/ border-bottom:1px solid #CCCCCC;
+                }
+
+                /**
+                * @tab Body
                 * @section body text
-                * @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+                * @theme main
                 */
                 .bodyContent{
-                    /*@editable*/ font-size:18px !important;
-                    /*@editable*/ line-height:125% !important;
+                    /*@editable*/ line-height:150%;
+                    padding-top:20px;
+                    padding-right:20px;
+                    padding-bottom:20px;
+                    padding-left:20px;
                 }
 
-                /* ======== Column Styles ======== */
-
-                .templateColumnContainer{display:block !important; width:100% !important;}
-
                 /**
-                * @tab Mobile Styles
-                * @section column image
-                * @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                * @tab Body
+                * @section body link
+                * @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
                 */
-                .columnImage{
-                    height:auto !important;
-                    /*@editable*/ max-width:480px !important;
-                    /*@editable*/ width:100% !important;
+                .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+                    /*@editable*/ color:#EB4102;
+                    /*@editable*/ text-decoration:underline;
+                }
+
+                .bodyContent img{
+                    display:inline;
+                    height:auto;
+                    max-width:560px;
+                }
+
+                /* ========== Column Styles ========== */
+
+                .templateColumnContainer{width:260px;}
+
+                /**
+                * @tab Columns
+                * @section column style
+                * @tip Set the background color and borders for your email's column area.
+                */
+                #templateColumns{
+                    /*@editable*/ border-top:1px solid #FFFFFF;
+                    /*@editable*/ border-bottom:1px solid #CCCCCC;
                 }
 
                 /**
-                * @tab Mobile Styles
+                * @tab Columns
                 * @section left column text
-                * @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                * @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
                 */
                 .leftColumnContent{
-                    /*@editable*/ font-size:16px !important;
-                    /*@editable*/ line-height:125% !important;
+                    /*@editable*/ line-height:150%;
+                    padding-top:0;
+                    padding-right:20px;
+                    padding-bottom:20px;
+                    padding-left:20px;
                 }
 
                 /**
-                * @tab Mobile Styles
+                * @tab Columns
+                * @section left column link
+                * @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+                */
+                .leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+                    /*@editable*/ text-decoration:underline;
+                }
+
+                /**
+                * @tab Columns
                 * @section right column text
-                * @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                * @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
                 */
                 .rightColumnContent{
-                    /*@editable*/ font-size:16px !important;
-                    /*@editable*/ line-height:125% !important;
+                    /*@editable*/ line-height:150%;
+                    padding-top:0;
+                    padding-right:20px;
+                    padding-bottom:20px;
+                    padding-left:20px;
                 }
-
-                /* ======== Footer Styles ======== */
 
                 /**
-                * @tab Mobile Styles
-                * @section footer text
-                * @tip Make the body content text larger in size for better readability on small screens.
+                * @tab Columns
+                * @section right column link
+                * @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
                 */
-                .footerContent{
-                    /*@editable*/ font-size:14px !important;
-                    /*@editable*/ line-height:115% !important;
+                .rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+                    /*@editable*/ text-decoration:underline;
                 }
 
-                .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
-            }
-        </style>         
+                .leftColumnContent img, .rightColumnContent img{
+                    display:inline;
+                    height:auto;
+                    max-width:260px;
+                }
+
+                /* ========== Footer Styles ========== */
+
+                /**
+                * @tab Footer
+                * @section footer style
+                * @tip Set the background color and borders for your email's footer area.
+                * @theme footer
+                */
+                #templateFooter{
+                    /*@editable*/ border-top:1px solid #FFFFFF;
+                }
+
+                /**
+                * @tab Footer
+                * @section footer text
+                * @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+                * @theme footer
+                */
+                .footerContent{
+                    /*@editable*/ line-height:150%;
+                    padding-top:20px;
+                    padding-right:20px;
+                    padding-bottom:20px;
+                    padding-left:20px;
+                }
+
+                /**
+                * @tab Footer
+                * @section footer link
+                * @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+                */
+                .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{                
+                    /*@editable*/ text-decoration:underline;
+                }
+
+                /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+                @media only screen and (max-width: 480px){
+                    /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+                    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                    body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+                    /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+                    #bodyCell{padding:10px !important;}
+
+                    /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+                    /* ======== Page Styles ======== */
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section template width
+                    * @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+                    */
+                    #templateContainer{
+                        max-width:600px !important;
+                        /*@editable*/ width:100% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section heading 1
+                    * @tip Make the first-level headings larger in size for better readability on small screens.
+                    */
+                    .h1{
+                        /*@editable*/ font-size:24px !important;
+                        /*@editable*/ line-height:100% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section heading 2
+                    * @tip Make the second-level headings larger in size for better readability on small screens.
+                    */
+                    .h2{
+                        /*@editable*/ font-size:20px !important;
+                        /*@editable*/ line-height:100% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section heading 3
+                    * @tip Make the third-level headings larger in size for better readability on small screens.
+                    */
+                    .h3{
+                        /*@editable*/ font-size:18px !important;
+                        /*@editable*/ line-height:100% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section heading 4
+                    * @tip Make the fourth-level headings larger in size for better readability on small screens.
+                    */
+                    .h4{
+                        /*@editable*/ font-size:16px !important;
+                        /*@editable*/ line-height:100% !important;
+                    }
+
+                    /* ======== Header Styles ======== */
+
+                    #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section header image
+                    * @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                    */
+                    #headerImage{
+                        height:auto !important;
+                        /*@editable*/ max-width:600px !important;
+                        /*@editable*/ width:100% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section header text
+                    * @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .headerContent{
+                        /*@editable*/ font-size:20px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
+
+                    /* ======== Body Styles ======== */
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section body text
+                    * @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .bodyContent{
+                        /*@editable*/ font-size:18px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
+
+                    /* ======== Column Styles ======== */
+
+                    .templateColumnContainer{display:block !important; width:100% !important;}
+                    .templateSocialContainer{display:inline !important; }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section column image
+                    * @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                    */
+                    .columnImage{
+                        height:auto !important;
+                        /*@editable*/ max-width:480px !important;
+                        /*@editable*/ width:100% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section left column text
+                    * @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .leftColumnContent{
+                        /*@editable*/ font-size:16px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section right column text
+                    * @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                    */
+                    .rightColumnContent{
+                        /*@editable*/ font-size:16px !important;
+                        /*@editable*/ line-height:125% !important;
+                    }
+
+                    /* ======== Footer Styles ======== */
+
+                    /**
+                    * @tab Mobile Styles
+                    * @section footer text
+                    * @tip Make the body content text larger in size for better readability on small screens.
+                    */
+                    .footerContent{
+                        /*@editable*/ font-size:14px !important;
+                        /*@editable*/ line-height:115% !important;
+                    }
+
+                    .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+                }
+            </style>         
     </head>
-    
+
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">        
-    
+
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable"
                    class="general-background-color general-font-family" style="font-family: HelveticaNeue, Arial, sans-serif;background-color: #eeeeee; " data-place="general">
@@ -415,40 +416,40 @@
                                 <td align="center" valign="top">
                                     <!-- BEGIN HEADER // -->
                                     <table  id="templateHeader" cellpadding="0" cellspacing="0" border="0" data-place="header" class="table header-font-family header-font-size header-font-weight header-text-align header-text-color header-background-color" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 24px; color: #393939; background-color: #ffffff; height: 200px; text-align: center; width:100%; max-width:600px;">
-                                            <tbody>
-                                                <tr>
-                                                    <td valign="middle" style="text-align: inherit; vertical-align: middle; line-height: 1em;" class="header-font-size header-font-weight general-font-family header-font-family dashed" data-button="borrar">
-                                                        <div contenteditable="true" class="contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_HEAD_TITLE">
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>                                    
+                                        <tbody>
+                                            <tr>
+                                                <td valign="middle" style="text-align: inherit; vertical-align: middle; line-height: 1em;" class="header-font-size header-font-weight general-font-family header-font-family dashed" data-button="borrar">
+                                                    <div contenteditable="true" class="contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_HEAD_TITLE">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                    
                                     <!-- // END HEADER -->
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center" valign="top">
-                                    
-                                    
-                                     <!-- #########  Contenido ########### -->
+
+
+                                    <!-- #########  Contenido ########### -->
                                     <table id="templateBody" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table content-background-color content-font-family general-font-family" data-place="content" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #393939; background-color: #ffffff; text-align: left; ">
                                         <tbody>
-                                        <tr>
-                                            <td valign="top" class="content-font-family content-font-size"  style="max-width:600px;">
+                                            <tr>
+                                                <td valign="top" class="content-font-family content-font-size"  style="max-width:600px;">
 
-                                                <div class="moveArea movable">
+                                                    <div class="moveArea movable">
 
 
                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="removeFromHere mod-imagen dashed" data-button="borrar mover" style="max-width:600px;">
                                                             <tbody>
-                                                            <tr>
-                                                                <td style="" valign="top">
-                                                                    <div   contenteditable="true" class="contenteditable image"  data-maxWidth="600" data-maxHeight="150">
-                                                    <img src="<%= BACKEND_URL %>/placeholder/s/600x150" style="max-width:600px;" id="headerImage">
-                                                </div>
-                                                                </td>
-                                                            </tr>
+                                                                <tr>
+                                                                    <td style="" valign="top">
+                                                                        <div   contenteditable="true" class="contenteditable image"  data-maxWidth="600" data-maxHeight="150">
+                                                                            <img src="<%= BACKEND_URL %>/placeholder/s/600x150" style="max-width:600px;" id="headerImage">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
                                                             </tbody>
                                                         </table>
 
@@ -456,114 +457,114 @@
 
                                                         <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="removeFromHere movable mod-texto dashed content-text-align" data-button="borrar mover" style="font-size: inhertit;  max-width:600px;">
                                                             <tbody>
-                                        <tr >
-                                            <td valign="top" class=" bodyContent">  
-                                                    <div class="contenteditable content-title-color general-font-family content-font-family i18n" 
-                                                         style="margin-left: 10px; font-family:inherit;font-size: 32px; color:  #393939;line-height: 1.15em;"
-                                                         contenteditable="true" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1">
-                                                        </div>                                                
-                                                    <div class="contenteditable content-text-color general-font-family content-font-family i18n" 
-                                                         style="margin-left: 10px; font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em;" 
-                                                         contenteditable="true" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE">
-                                                        </div>
-                                                <br />
-                                            </td>
-                                        </tr>
+                                                                <tr >
+                                                                    <td valign="top" class=" bodyContent">  
+                                                                        <div class="contenteditable content-title-color general-font-family content-font-family i18n" 
+                                                                             style="margin-left: 10px; font-family:inherit;font-size: 32px; color:  #393939;line-height: 1.15em;"
+                                                                             contenteditable="true" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1">
+                                                                        </div>                                                
+                                                                        <div class="contenteditable content-text-color general-font-family content-font-family i18n" 
+                                                                             style="margin-left: 10px; font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em;" 
+                                                                             contenteditable="true" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE">
+                                                                        </div>
+                                                                        <br />
+                                                                    </td>
+                                                                </tr>
                                                             </tbody>
                                                         </table>                                                    
-                                                    
-                                                </div>                                               
-                                                
-                                            </td>
-                                        </tr>
+
+                                                    </div>                                               
+
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>                                                                                                          
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center" valign="top" data-place="gallery" style="max-width:600px;">
-                                    
+
                                     <table  border="0" cellpadding="0" cellspacing="0" width="100%" 
                                             style="max-width:600px; font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; width: 100%;  max-width:600px;" class=" gallery-background-color gallery-font-family" >
                                         <tr>
                                             <td align="center" valign="top" class="templateColumnContainer"  style="padding-bottom: 20px;">
-                                                
-                                                
+
+
                                                 <!-- BEGIN COLUMNS // -->
-                                    <div  class="moveArea" style="max-width:600px;">
-                                    
-                                    <table  class="removeFromHere movable dashed gallery-background-color gallery-font-family" border="0" cellpadding="0" cellspacing="0" width="100%" 
-                                            style="max-width:600px; font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; width: 100%;  max-width:600px;"
-                                            
-                                            id="templateColumns" data-button="borrar mover" >
-                                        <tr>
-                                            <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td class="leftColumnContent">
-                                                            <div   contenteditable="true" class="contenteditable image" data-maxWidth="260" data-maxHeight="120">
-                                                                <img src="<%= BACKEND_URL %>/placeholder/s/260x120" style="max-width:260px;" class="columnImage" />
-                                                            </div>
-                                                         </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td valign="top" class="leftColumnContent">                                                          
-                                                                <div contenteditable="true" class="
-                                                                     contenteditable gallery-font-family i18n                                                                  gallery-text-align gallery-font-size gallery-title-color general-font-family gallery-font-family" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"
-                                                                     style="font-family:inherit;font-size: 32px; color:  #393939;line-height: 1.15em;" 
-                                                                     >
-                                                                </div>    
-                                                                <div contenteditable="true" class="gallery-text-align gallery-font-size gallery-text-color general-font-family gallery-font-family contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"
-                                                                     style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; max-width:270px;"
-                                                                     >
-                                                                </div>                                                            
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td class="rightColumnContent">
-                                                            <div contenteditable="true" class="contenteditable image"  data-maxWidth="260" data-maxHeight="120">
-                                                                <img src="<%= BACKEND_URL %>/placeholder/s/260x120" style="max-width:260px;" class="columnImage" />
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td valign="top" class="leftColumnContent">                                                            
-                                                                <div contenteditable="true" class="
-                                                                     contenteditable gallery-font-family i18n                                                                  gallery-text-align gallery-font-size gallery-title-color general-font-family gallery-font-family" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"
-                                                                     style="font-family:inherit;font-size: 32px; color:  #393939;line-height: 1.15em;" 
-                                                                     >
-                                                                </div>                                                      
-                                                                <div contenteditable="true" class="gallery-text-align gallery-font-size gallery-text-color general-font-family gallery-font-family contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"
-                                                                     style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; max-width:270px;"
-                                                                     >
-                                                                </div>                                                            
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>                                        
-                                    </table>                                       
-                                        
-                                    </div>
-                                    
-                                    <!----------------------------->
-                                    <div class="button-container">
-                                        <button type="button" class="anadir" data-module-type="mod-galeria-dos-col">
-                                            <i class="ico-add-content"></i>&nbsp;
-                                            <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
-                                        </button>
-                                    </div>
-                                    <!-- // END COLUMNS -->          
-                                                
-                                                
+                                                <div  class="moveArea" style="max-width:600px;">
+
+                                                    <table  class="removeFromHere movable dashed gallery-background-color gallery-font-family" border="0" cellpadding="0" cellspacing="0" width="100%" 
+                                                            style="max-width:600px; font-family: HelveticaNeue, Arial, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff; width: 100%;  max-width:600px;"
+
+                                                            id="templateColumns" data-button="borrar mover" >
+                                                        <tr>
+                                                            <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                        <td class="leftColumnContent">
+                                                                            <div   contenteditable="true" class="contenteditable image" data-maxWidth="260" data-maxHeight="120">
+                                                                                <img src="<%= BACKEND_URL %>/placeholder/s/260x120" style="max-width:260px;" class="columnImage" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="top" class="leftColumnContent">                                                          
+                                                                            <div contenteditable="true" class="
+                                                                                 contenteditable gallery-font-family i18n                                                                  gallery-text-align gallery-font-size gallery-title-color general-font-family gallery-font-family" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"
+                                                                                 style="font-family:inherit;font-size: 32px; color:  #393939;line-height: 1.15em;" 
+                                                                                 >
+                                                                            </div>    
+                                                                            <div contenteditable="true" class="gallery-text-align gallery-font-size gallery-text-color general-font-family gallery-font-family contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"
+                                                                                 style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; max-width:270px;"
+                                                                                 >
+                                                                            </div>                                                            
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                        <td class="rightColumnContent">
+                                                                            <div contenteditable="true" class="contenteditable image"  data-maxWidth="260" data-maxHeight="120">
+                                                                                <img src="<%= BACKEND_URL %>/placeholder/s/260x120" style="max-width:260px;" class="columnImage" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="top" class="leftColumnContent">                                                            
+                                                                            <div contenteditable="true" class="
+                                                                                 contenteditable gallery-font-family i18n                                                                  gallery-text-align gallery-font-size gallery-title-color general-font-family gallery-font-family" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"
+                                                                                 style="font-family:inherit;font-size: 32px; color:  #393939;line-height: 1.15em;" 
+                                                                                 >
+                                                                            </div>                                                      
+                                                                            <div contenteditable="true" class="gallery-text-align gallery-font-size gallery-text-color general-font-family gallery-font-family contenteditable i18n" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"
+                                                                                 style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; max-width:270px;"
+                                                                                 >
+                                                                            </div>                                                            
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>                                        
+                                                    </table>                                       
+
+                                                </div>
+
+                                                <!----------------------------->
+                                                <div class="button-container">
+                                                    <button type="button" class="anadir" data-module-type="mod-galeria-dos-col">
+                                                        <i class="ico-add-content"></i>&nbsp;
+                                                        <span class="i18n" data-i18n="TEMPLATES.ACTIONS.ADD"></span>
+                                                    </button>
+                                                </div>
+                                                <!-- // END COLUMNS -->          
+
+
                                             </td>                                            
                                         </tr>                                        
                                     </table>                                       
-                                    
+
                                 </td>
                             </tr>
                             <tr>
@@ -571,20 +572,32 @@
                                     <!-- BEGIN FOOTER // -->
                                     <!-- #########  Social ########### -->
                                     <div class="removeFromHere move-disabled">
-                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mod-social social-background-color social-text-align" style=" text-align: center; background-color: #ffffff; padding: 10px 9px 10px 9px;  max-width:600px;" data-place="social">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" class="mod-social social-background-color social-text-align"   data-place="social">
                                             <tbody>
                                                 <tr>
-                                                    <td>
-                                                        <div id="socialContainer" class="dashed" data-button="borrar social" style="display: inline-block; padding: 2% 0% 0% 0%;">
-                                                            <p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p>
-                                                        </div>
+                                                    <td>                                                                
+                                                        <table  cellpadding="0" cellspacing="0" border="0" align="center" 
+                                                                class="mod-social social-background-color social-text-align" 
+                                                                style=" text-align: center; background-color: #ffffff; padding: 10px 9px 10px 9px;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p class="help-module i18n" data-i18n="TEMPLATES.SOCIAL.TXT_ADD_SOCIAL_NETWORK_BUTTONS"></p>                                                                                                                                                                                                                                             
+                                                                    </td>
+                                                                </tr>
+                                                                <tr id="socialContainer" class="dashed" data-button="borrar social" 
+                                                                    style="display: inline-block; padding: 2% 0% 0% 0%;">
+
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>                                                                                                                                                                                                
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                     <!-- #########  FIN Social ########### -->
-                                    
+
                                     <!-- #########  Pie ########### -->
                                     <div class="removeFromHere">
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="table footer-background-color general-font-family footer-font-family footer-font-size footer-text-color footer-text-align" data-place="footer" style="font-family: HelveticaNeue, Arial, sans-serif; font-size: 12px; color: #393939; background-color: #fff; width: 100%;  max-width:600px; ">
@@ -606,8 +619,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <!-- #########  FIN Pie ########### -->
-                                    <!-- // END FOOTER -->
+                                    <!-- #########  FIN Pie ########### -->                                    
                                 </td>
                             </tr>
                         </table>
@@ -616,7 +628,5 @@
                 </tr>
             </table>
         </center>
-    </body>    
-    
+    </body>       
 </html>
-

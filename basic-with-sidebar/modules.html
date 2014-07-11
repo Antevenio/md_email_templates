@@ -88,67 +88,82 @@
 <!-- FIN Módulo galeria una columna  -->
 <!-- Módulo de los botones de redes sociales que van en la creatividad -->
 <div id="socialButtonTemplateContainer">
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="facebook-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-fb.png" alt="Facebook" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="facebook-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Facebook</a>
-        </div>
-    </div>
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="twitter-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-tw.png" alt="Twitter" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="twitter-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Twitter</a>
-        </div>
-    </div>
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="linkedin-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-in.png" alt="Linkedin" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="linkedin-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Linkedin</a>
-        </div>
-    </div>
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="pinterest-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-pin.png" alt="Pinterest" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="pinterest-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Pinterest</a>
-        </div>
-    </div>
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="youtube-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-yt.png" alt="Youtube" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="youtube-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Youtube</a>
-        </div>
-    </div>
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="googleplus-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-gplus.png" alt="Google Plus" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="googleplus-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Google +</a>
-        </div>
-    </div>
-    <div style="float: left; margin-right: 10px; margin-bottom: 10px;" id="vimeo-ButtonTemplate" class="socialNetwork">
-        <div style="float: left; width: 32px;">
-            <img class="social-icon" src="<%=iconSetUrl %>/ico-vimeo.png" alt="Vimeo" style="max-width: 32px; max-height: 32px;">
-        </div>
-        <div style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
-            <a id="vimeo-url" href="#" target="_blank" class="font-family-general color-link-contenido"
-               style="text-decoration: none; color: #393939; font-size: 14px;">Vimeo</a>
-        </div>
-    </div>
+    <table>
+        <tr id="facebook-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td >
+                <div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-fb.png" alt="Facebook" 
+                         style="max-width: 32px; max-height: 32px;">
+                </div>
+
+            </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
+                <a id="facebook-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Facebook</a>
+            </td>
+        </tr>
+        <tr id="twitter-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td >
+                <div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-tw.png" alt="Twitter" style="max-width: 32px; max-height: 32px;">
+                </div>
+            </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="twitter-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Twitter</a>
+
+            </td>
+        </tr>
+        <tr id="linkedin-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-in.png" alt="Linkedin" style="max-width: 32px; max-height: 32px;">
+                </div></td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="linkedin-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Linkedin</a>
+
+            </td>
+        </tr>
+        <tr id="pinterest-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-pin.png" alt="Pinterest" style="max-width: 32px; max-height: 32px;">
+                </div> </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="pinterest-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Pinterest</a>
+
+            </td>
+        </tr>
+        <tr id="youtube-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-yt.png" alt="Youtube" style="max-width: 32px; max-height: 32px;">
+                </div>  </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
+                <a id="youtube-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Youtube</a>
+
+            </td>
+        </tr>
+        <tr id="googleplus-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-gplus.png" alt="Google Plus" style="max-width: 32px; max-height: 32px;">
+                </div>  </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="googleplus-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Google +</a>
+
+            </td>
+        </tr>
+        <tr id="vimeo-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-vimeo.png" alt="Vimeo" style="max-width: 32px; max-height: 32px;">
+                </div>    </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">  
+                <a id="vimeo-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Vimeo</a>
+
+            </td>
+        </tr>
+
+    </table>
 </div>
