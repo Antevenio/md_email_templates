@@ -1,0 +1,25 @@
+{
+    "TEMPLATE": {
+        "GENERAL": {},
+        "HEADER": {},
+        "CONTENT": {
+            "ITEM_1_TITLE" : " La Artista",
+            "ITEM_1_P" : "Julia Vodanova es una artista multidiscplinar, aunque nacida en Letonia, ha desarrollado toda su carrera asrtistica en España, descubre en esta sección a la artista que se esconde detras de cada brochazo de sus lienzos. ",
+            "ITEM_2_TITLE" : "Nueva Serie",
+            "ITEM_2_P" : "Geometriías es la nueva coleccion de pinturas de Julia, que podremos ver a partir de Septiembre en la Galería Octogono, este es un pequeño adelanto.",
+            "ITEM_3_TITLE" : "Visítanos en la muestra de Milán",
+            "ITEM_3_P" : "Ocupando un lugar destacado en la selección oficial, en la Muestra de Milan podemos ver junta la mayor exposición de pinturas de Julia Vodanova, del 12 al 23 de Agosto.",
+            "ITEM_4_TITLE" : " Galería Online",
+            "ITEM_4_P" : "La web de Julia Vodanova se ha actualizado con un diseño responsivo que permite acceder desde cualquier dispositivo móvil a todo el catalogo de su obra, sin importar donde estés."
+        },
+        "FOOTER": {
+            "PRIVACY_POLICY_LNK": "Politica de privacidad",
+            "LEGAL_WARNING_LNK": "Aviso Legal",
+            "YOUR_WEBSITE_LNK": "www.juliavodanova.com",
+            "YOUR_COMPANY_LBL": "Julia Vodanova"
+        },
+        "SOCIAL": {
+            "MODULE_TEXT": "Añade aquí tus botones de redes sociales"
+        }
+    }
+}

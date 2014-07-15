@@ -1,0 +1,32 @@
+{
+    "id": "Artisant-1-b2c",
+    "author": "Trisquelmedia",
+    "name": {
+        "es": "Básica 2 Columnas sin Sidebar. Profesionales.Arte",
+        "it": "Standard 2 Colonne senza Sidebar. Professionisti.Arte",
+        "fr": "Basique 2 Colonnes sans Sidebar. Professionnels. Art"
+    },
+    "description": {
+        "es": "Básica 2 Columnas sin Sidebar. Profesionales.Arte",
+        "it": "Standard 2 Colonne senza Sidebar. Professisti.Arte",
+        "fr": "Basique 2 Colonnes sans Sidebar. Professionnels. Art"
+    },
+    "responsive": true,
+    "supported": ["Firefox", "Chrome", "IE9+", "Gmail", "Outlook"],
+    "sections": ["general", "header", "content", "footer", "social", "gallery"],
+    "social_icon_theme": "circled",
+    "category": "Crafts",
+    "category_lang": {
+        "es": "Artesania",
+        "it": "Mestieri",
+        "fr": "Artisant"
+    },
+    "i18n": {
+        "enabled": true,
+        "languages": [
+            {"name": "Español", "code": "es"},
+            {"name": "Français", "code": "fr"},
+            {"name": "Italiano", "code": "it"}
+        ]
+    }
+}

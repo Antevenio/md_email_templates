@@ -1,0 +1,25 @@
+{
+    "TEMPLATE": {
+        "GENERAL": {},
+        "HEADER": {},
+        "CONTENT": {
+            "ITEM_1_TITLE" : " L'Artiste",
+            "ITEM_1_P" : "Julie Vodanova est une artiste multidisciplinaire, bien que née en Lettonie, elle a développé toute sa carrière artistique en France, découvrez dans cette rubrique l'artiste qui se cache derrière chaque coup de pinceau. ",
+            "ITEM_2_TITLE" : "Nouvelle série",
+            "ITEM_2_P" : "Géométries est la nouvelle collection de peintures de Julie, que nous pourrons voir à partir de Septembre à la Galerie Marcel, ceci est une petite avance.",
+            "ITEM_3_TITLE" : "Visitez-nous à l'exposition de Milan",
+            "ITEM_3_P" : "Avec une place privilégiée dans la sélection officielle, dans l'exposition de Milan nous pourrons voir la plus grande exposition de Julie Vodanova, du 12 au 23 Août.",
+            "ITEM_4_TITLE" : " Galerie en ligne",
+            "ITEM_4_P" : "Le site de Julie Vodanova a été mis à jour avec un design responsiv qui permet d'accéder à partir de n'importe quel dispositif mobile à tout le catalogue de son oeuvre, peu importe où vous vous trouvez."
+        },
+        "FOOTER": {
+            "PRIVACY_POLICY_LNK": "Politique de confidentialité",
+            "LEGAL_WARNING_LNK": "Mentions Légales",
+            "YOUR_WEBSITE_LNK": "www.julievodanova.com",
+            "YOUR_COMPANY_LBL": "Julie Vodanova"
+        },
+        "SOCIAL": {
+            "MODULE_TEXT": "Ajoutez ici vos liens vers les réseaux sociauxs"
+        }
+    }
+}
