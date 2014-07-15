@@ -1,0 +1,19 @@
+{
+    "id": "basic-one-column",
+    "author": "MDirector Team",
+    "name": {
+        "es": "Básico 1 Columna",
+        "it": "Standard 1 Colonna",
+        "fr": "Basique 1 Colonne"
+    },
+    "description": {
+        "es": "Template basico de una columna",
+        "it": "Template standard 1 Colonna",
+        "fr": "Template basique à une colonne"
+    },
+    "responsive": true,
+    "supported": ["firefox", "chrome", "IE9+"],
+    "sections": ["general", "header", "content", "footer", "social"],
+    "social_icon_theme": "default",
+    "category": "basic"
+}

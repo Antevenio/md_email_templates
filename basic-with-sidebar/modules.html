@@ -1,0 +1,169 @@
+<!-- Módulo imagen texto grande  -->
+<div class="mod-img-texto-grande">
+    <div class="removeFromHere movable">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
+            <tbody>
+                <tr>
+                    <td style="" valign="top">
+                        <div contenteditable="true" class="contenteditable image" data-maxWidth="563" data-maxHeight="150">
+                            <img id="edit-image-trigger" src="<%= BACKEND_URL %>/placeholder/s/563x150" style="max-width: 100%;" alt="">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br style="clear:both;">
+    </div>
+
+    <div class="removeFromHere movable">
+        <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+            <tbody>
+                <tr>
+                    <td valign="top" class=" content-text-align">
+                        <div contenteditable="false" class="contenteditable">
+                            <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #009FB0;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></span>
+                            <br>
+                            <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#393939; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- FIN Módulo imagen texto grande  -->
+<!-- Módulo imagen texto pequeño  -->
+<div class="mod-img-texto-peque">
+    <div class="removeFromHere movable">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
+            <tbody>
+                <tr>
+                    <td style="" valign="top">
+                        <div contenteditable="true" class="contenteditable image" data-maxWidth="390" data-maxHeight="100">
+                            <img src="<%= BACKEND_URL %>/placeholder/s/390x100" style="max-width: 100%;" alt="">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br style="clear:both;">
+    </div>
+    <div class="removeFromHere movable">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+            <tbody>
+                <tr>
+                    <td valign="top" class="content-text-align">
+                        <div contenteditable="false" class="contenteditable">
+                            <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_2"></span>
+                            <br />
+                            <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- FIN Módulo imagen texto pequeño  -->
+
+<!-- ///////////////////////////////////////////////////-->
+
+
+<!-- Módulo galeria una columnas -->
+<div class="mod-galeria-una-col">
+    <div class="removeFromHere movable">
+        <div class="dashed" data-button="borrar mover" style="width: auto;">
+            <div contenteditable="true" class="contenteditable image" data-maxWidth="148" data-maxHeight="75">
+                <img src="<%= BACKEND_URL %>/placeholder/s/148x75" style="max-width: 148px; margin-bottom: 10px;" alt="">
+            </div>
+            <div contenteditable="false" class="contenteditable">
+                <div class="gallery-text-align gallery-font-size gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color: #393939;line-height: 1em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                <p class="gallery-text-align gallery-font-size gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#393939; text-align:inherit;line-height: 1.2em; width: auto;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+            </div>
+        </div>
+        <br style="clear: both;">
+    </div>
+</div>
+<!-- FIN Módulo galeria una columna  -->
+<!-- Módulo de los botones de redes sociales que van en la creatividad -->
+<div id="socialButtonTemplateContainer">
+    <table>
+        <tr id="facebook-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td >
+                <div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-fb.png" alt="Facebook" 
+                         style="max-width: 32px; max-height: 32px;">
+                </div>
+
+            </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
+                <a id="facebook-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Facebook</a>
+            </td>
+        </tr>
+        <tr id="twitter-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td >
+                <div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-tw.png" alt="Twitter" style="max-width: 32px; max-height: 32px;">
+                </div>
+            </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="twitter-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Twitter</a>
+
+            </td>
+        </tr>
+        <tr id="linkedin-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-in.png" alt="Linkedin" style="max-width: 32px; max-height: 32px;">
+                </div></td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="linkedin-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Linkedin</a>
+
+            </td>
+        </tr>
+        <tr id="pinterest-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-pin.png" alt="Pinterest" style="max-width: 32px; max-height: 32px;">
+                </div> </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="pinterest-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Pinterest</a>
+
+            </td>
+        </tr>
+        <tr id="youtube-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-yt.png" alt="Youtube" style="max-width: 32px; max-height: 32px;">
+                </div>  </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">
+                <a id="youtube-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Youtube</a>
+
+            </td>
+        </tr>
+        <tr id="googleplus-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-gplus.png" alt="Google Plus" style="max-width: 32px; max-height: 32px;">
+                </div>  </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;"> 
+                <a id="googleplus-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Google +</a>
+
+            </td>
+        </tr>
+        <tr id="vimeo-ButtonTemplate" class="socialNetwork" style="margin-right: 10px; margin-bottom: 10px;">
+            <td ><div style="float: left; margin-right: 10px; margin-bottom: 10px;">
+                    <img class="social-icon" src="<%=iconSetUrl %>/ico-vimeo.png" alt="Vimeo" style="max-width: 32px; max-height: 32px;">
+                </div>    </td>
+            <td style="float: left; padding-top: 6px; width: 65px;text-align: left; padding-left: 4px;">  
+                <a id="vimeo-url" href="#" target="_blank" class="font-family-general color-link-contenido"
+                   style="text-decoration: none; color: #393939; font-size: 14px;">Vimeo</a>
+
+            </td>
+        </tr>
+
+    </table>
+</div>

@@ -1,37 +1,78 @@
 <!-- Módulo imagen texto grande  -->
 <div class="mod-img-texto-grande">
-    <div class="removeFromHere movable">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px;">
-            <tbody>
-                <tr>
-                    <td style="" valign="top">
-                        <div contenteditable="true" class="contenteditable image" data-maxWidth="563" data-maxHeight="150">
-                            <img src="http://placehold.it/563x150" style="max-width: 100%;" alt="">
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <br style="clear:both;">
-    </div>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="removeFromHere mod-imagen dashed" data-button="borrar mover" style="margin-bottom: 20px; max-width:590px;">
+        <tbody>
+            <tr>
+                <td style="" valign="top">
+                    <div contenteditable="true" class="contenteditable image" data-maxWidth="590" data-maxHeight="160">
+                        <img id="edit-image-trigger" src="/placeholder/s/590x160" style="max-width: 590px;" class="headerImage" alt="">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div class="removeFromHere movable">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
-            <tbody>
-                <tr>
-                    <td valign="top" class=" content-text-align">
-                        <div contenteditable="false" class="contenteditable">
-                            <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #009FB0;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></span>
-                            <br>
-                            <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#393939; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+
+
+    <table id="edit-content-trigger" width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="removeFromHere mod-texto dashed content-text-align" data-button="borrar mover" style="margin-bottom: 10px;font-size: inhertit; color:inherit;line-height: 1em;">
+        <tbody>
+            <tr>
+                <td valign="top" class="content-text-align">
+                    <div contenteditable="false" class="contenteditable">
+                        <span class="content-title-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: 32px; color: #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></span>
+                        <br />
+                        <p class="content-text-color general-font-family content-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em;" data-i18n="TEMPLATES.MODULES.TXT_BEGIN_AND_CUSTUMIZE"></p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>         
 </div>
 <!-- FIN Módulo imagen texto grande  -->
+
+<!-- Módulo galeria tres columnas -->
+<div class="mod-galeria-tres-col">
+        <table class="dashed cont removeFromHere movable" data-button="borrar mover"  id="templateColumns"  width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
+            <tr>
+                <td width="32%" class="templateColumnContainer" >
+                    <div style="width: 100%; float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
+                        <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
+                            <img src="/placeholder/s/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                        </div>
+                        <div contenteditable="false" class="contenteditable">
+                            <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                            <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="templateColumnContainer" style="width: 2%; max-width: 4px;">&nbsp;</td>
+                <td width="32%" class="templateColumnContainer" >
+                    <div style="width: 100%; float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
+                        <div contenteditable="true" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
+                            <img src="/placeholder/s/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                        </div>
+                        <div contenteditable="false" class="contenteditable">
+                            <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                            <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="templateColumnContainer" style="width: 2%; max-width: 4px;">&nbsp;</td>
+                <td width="32%" class="templateColumnContainer" >
+                    <div style="width: 100%; float:left; vertical-align: top; display: inline-block; *display: inline; zoom: 1;">
+                        <div contenteditable="false" class="contenteditable image" data-maxWidth="197" data-maxHeight="100">
+                            <img src="/placeholder/s/197x100" style="max-width: 197px; margin-bottom: 10px;" alt="" class="columnImage">
+                        </div>
+                        <div contenteditable="true" class="contenteditable">
+                            <div class="gallery-title-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: 14px; color:  #393939;line-height: 1.15em;" data-i18n="TEMPLATES.MODULES.TXT_TITLE_1"></div>
+                            <p class="gallery-text-color general-font-family gallery-font-family i18n" style="font-family:inherit;font-size: inherit; color:#000000; text-align:inherit;line-height: 1.2em; width: 160px;" data-i18n="TEMPLATES.MODULES.TXT_INSERT_TEXT"></p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+</div>
+<!-- FIN Módulo galeria tres columnas  -->
 <!-- Módulo de los botones de redes sociales que van en la creatividad -->
 <div id="socialButtonTemplateContainer">
     <table>
@@ -116,4 +157,5 @@
         </tr>
     </table>
 </div>
+
 <!-- FIN Módulo de los botones de redes sociales que van en la creatividad -->

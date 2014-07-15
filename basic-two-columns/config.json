@@ -1,0 +1,19 @@
+{
+    "id": "basic-two-columns",
+    "author": "MDirector Team",
+    "name": {
+        "es": "Básico 2 Columnas",
+        "it": "Standard 2 Colonne",
+        "fr": "Basique 2 Colonnes"
+    },
+    "description": {
+        "es": "Añade modulos del tipo galeria de imagenes de dos columnas",
+        "it": "Aggiungi moduli del tipo galleria d’immagini di due colonne",
+        "fr": "Ajoutez des modules du type galerie d'images à deux colonnes"
+    },
+    "responsive": true,
+    "supported": ["Firefox", "Chrome", "IE9+", "Gmail", "Outlook"],
+    "sections": ["general", "header", "content", "footer", "social", "gallery"],
+    "social_icon_theme": "default",
+    "category": "basic"
+}
